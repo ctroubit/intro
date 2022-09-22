@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="text/css">
+</head>
+
+<body>
+    <div class ="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        
+    </div>
+    <div class="hero-image">
+        <input type ="image"
+        src = "C:\imgs\matrix.jpg"
+        width ="1255" height = "400">
+        <div class="hero-text">
+            <h1>I am Cristian T.</h1>
+            <p>Software Engineering Student</p>
+            <a href = "about.html"><button>Click to learn about me!</button></a>
+            
+            
+        </div>
+    </div>
+
+    <style type="text/css">
+        .topnav a{
+            background-color:#333;
+        }
+        .topnav a{
+            float: left;
+            color:aquamarine;
+            text-align:center;
+            padding:14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+
+        }
+        .topnav a:hover{
+            background-color:white;
+            color:black;
+        }
+        .topnav a.active{
+            background-color:red;
+            color:white;
+        }
+        body, html {
+    height: 100%;
+        }
+        .hero-image a{
+            background-image:linear-gradient(rgba(0,0,0,0.5)),
+            rgba(0,0,0,0.5),url(matrix.jpg);
+            height:60%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position:relative;
+        }
+        .hero-text{
+            font-style:inherit;
+            text-align: center;
+            position: absolute;
+            top:30%;
+            left:43%;
+            transform: (-50%,-50%);
+            color:white;
+
+        }
+        .footer{
+            position:fixed;
+            left:0;
+            bottom:0;
+            width:100%;
+            background-color:#333;
+            color:white;
+            text-align:center;
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+  <div class="footer">
+    <p>Visit my: <u>Instagram</u>, <u>GitHub</u>, <u>LinkedIn</u></p>
+</div>
+</body>
+</html>
